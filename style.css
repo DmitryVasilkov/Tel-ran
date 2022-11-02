@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background: #1ABC9C;
+    padding: 15px 0;
+}
+.header-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.social_icon {
+    margin-right: 20px;
+}
+.main {
+    display: flex;
+    margin: auto;
+}
+.about {
+    display: flex;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 42%;
+    margin-left: 62px;
+}
+h1 {
+    size: 35px;
+    font-family: 'Inter';
+}
+.Lorem {
+    size: 20px;
+    margin-top: 23px;
+    font-family: 'Inter';
+}
+
+/*Наши проекты*/
+
+.our-projects {
+    background-color: #DCFFEB;;
+    height: 730px;
+    padding-bottom: 50px;  
+}
+h2 {
+    size: 35px;
+    font-family: 'Inter';
+    padding-top: 124px;
+    padding-left: 64px;
+}
+.plate1 {
+        background-image: url(./images/plate.png);
+        width: 29%;
+        position: relative;
+        
+}
+.ghost {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.38);
+    opacity: 0;
+    align-items: center;
+    transition: 0.5s;
+}
+.ghost:hover {
+    opacity: 1;
+}
+.plates {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    
+}
+h3 {
+    font-family: 'Oswald';
+    size: 35px;
+    font-weight: 500;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 119px;
+    padding: 0 36px;
+
+}
+.arena {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 2px;
+    padding: 0 36px;
+}
+
